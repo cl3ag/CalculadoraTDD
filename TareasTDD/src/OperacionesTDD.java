@@ -1,9 +1,4 @@
 public class OperacionesTDD {
-    public String calculos(String numero){
-        String num=String.valueOf(numero);
-        return num;
-    }
-
     public static String suma(String numero){
         int contador=numero.length();
         int suma=0;
@@ -13,6 +8,9 @@ public class OperacionesTDD {
         }
         if (numero.lastIndexOf(',')==numero.length()-1){
             return "-1";
+        }
+        if (numero.contains("-")){
+            return "Numero negativos no permitidos";
         }
         for (int i=0; i< contador; i++){
             if (i%2==0){

@@ -47,6 +47,15 @@ class OperacionesTDDTest {
         String cocheRojo = OperacionesTDD.suma("1,1,2,");
         //assert
         assertEquals("-1", cocheRojo);
-        System.out.println("Test Fallido correctamente");
+        System.out.println("Test con , al final fallido correctamente");
+    }
+    @Test
+    void TestConNegativo(){
+        //arrange (set up)
+        //action
+        String cocheRojo = OperacionesTDD.suma("1,1,-2");
+        //assert
+        assertEquals("Numero negativos no permitidos", cocheRojo);
+        System.out.println("Test con numero negativo fallido correctamente");
     }
 }

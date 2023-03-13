@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6e3f2d-fb91-4f0f-a9e2-75563c6ea173" name="Changes" comment="Commit calculadora con 0 y 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5c6e3f2d-fb91-4f0f-a9e2-75563c6ea173" name="Changes" comment="Commit Tiene que dar error si el ultimo valor es &quot;,&quot;">
       <change beforePath="$PROJECT_DIR$/TareasTDD/Tests/OperacionesTDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TareasTDD/Tests/OperacionesTDDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TareasTDD/src/OperacionesTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/TareasTDD/src/OperacionesTDD.java" afterDir="false" />
     </list>
@@ -72,11 +71,27 @@
       <option name="project" value="LOCAL" />
       <updated>1678726635458</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit calculadora con 3 y 4">
+      <created>1678730186992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678730186992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit Tiene que dar error si el ultimo valor es &quot;,&quot;">
+      <created>1678730257801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678730257801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit calculadora con 0 y 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit calculadora con 0 y 1" />
+    <MESSAGE value="Commit calculadora con 3 y 4" />
+    <MESSAGE value="Commit Tiene que dar error si el ultimo valor es &quot;,&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Tiene que dar error si el ultimo valor es &quot;,&quot;" />
   </component>
 </project>
