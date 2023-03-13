@@ -7,9 +7,8 @@ class OperacionesTDDTest {
     @Test
     void Devuelve0(){
         //arrange (set up)
-        OperacionesTDD prueba1 = new OperacionesTDD();
         //action
-        String cocheRojo = prueba1.calculos(0);
+        String cocheRojo = OperacionesTDD.suma("");
         //assert
         assertEquals("0", cocheRojo);
         System.out.println("Test con 0 ejecutado correctamente");
@@ -17,11 +16,28 @@ class OperacionesTDDTest {
     @Test
     void Devuelve1(){
         //arrange (set up)
-        OperacionesTDD prueba1 = new OperacionesTDD();
         //action
-        String cocheRojo = prueba1.calculos(1);
+        String cocheRojo = OperacionesTDD.suma("1");
         //assert
         assertEquals("1", cocheRojo);
         System.out.println("Test con 1 ejecutado correctamente");
+    }
+    @Test
+    void Devuelve3(){
+        //arrange (set up)
+        //action
+        String cocheRojo = OperacionesTDD.suma("1,2");
+        //assert
+        assertEquals("3", cocheRojo);
+        System.out.println("Test con 3 ejecutado correctamente");
+    }
+    @Test
+    void Devuelve4(){
+        //arrange (set up)
+        //action
+        String cocheRojo = OperacionesTDD.suma("1,1,2");
+        //assert
+        assertEquals("4", cocheRojo);
+        System.out.println("Test con 4 ejecutado correctamente");
     }
 }
