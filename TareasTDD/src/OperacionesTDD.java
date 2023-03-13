@@ -11,7 +11,9 @@ public class OperacionesTDD {
         if (numero==""){
             return "0";
         }
-
+        if (numero.lastIndexOf(',')==numero.length()-1){
+            return "-1";
+        }
         for (int i=0; i< contador; i++){
             if (i%2==0){
                 int x=Integer.parseInt(numero.substring(i, i+1));

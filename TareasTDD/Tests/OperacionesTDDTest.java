@@ -40,4 +40,13 @@ class OperacionesTDDTest {
         assertEquals("4", cocheRojo);
         System.out.println("Test con 4 ejecutado correctamente");
     }
+    @Test
+    void DevuelveError(){
+        //arrange (set up)
+        //action
+        String cocheRojo = OperacionesTDD.suma("1,1,2,");
+        //assert
+        assertEquals("-1", cocheRojo);
+        System.out.println("Test Fallido correctamente");
+    }
 }
